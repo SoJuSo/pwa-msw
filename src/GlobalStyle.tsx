@@ -32,6 +32,13 @@ export const GlobalStyle = createGlobalStyle<any>`
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
       overscroll-behavior-x: none; */
+
+      .icon {
+        :hover{
+          fill: red;
+          /* scale: 2; */
+        }
+      }
     }
 
     body {
